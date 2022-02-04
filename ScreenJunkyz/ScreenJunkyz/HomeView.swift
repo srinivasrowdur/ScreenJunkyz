@@ -14,6 +14,7 @@ struct HomeView: View {
         Text("Added Image Hotfix")
         Text("Second Image Spelling Changed to Fix Bug text!")
         Text("Third Image text!")
+        Text("Fourth Image Text")
 
     }
 }
