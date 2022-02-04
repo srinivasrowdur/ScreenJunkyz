@@ -12,6 +12,7 @@ struct HomeView: View {
         Text("Srini Hello!")
         Text("Added Image text!")
         Text("Second Image text!")
+        Text("Third Image text!")
     }
 }
 
