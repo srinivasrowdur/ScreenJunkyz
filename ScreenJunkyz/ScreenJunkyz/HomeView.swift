@@ -9,10 +9,12 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
+
         Text("Srini  and Srikanth Hello!")
-        Text("Added Image text!")
-        Text("Second Image text!")
+        Text("Added Image Hotfix")
+        Text("Second Image Spelling Changed to Fix Bug text!")
         Text("Third Image text!")
+
     }
 }
 
