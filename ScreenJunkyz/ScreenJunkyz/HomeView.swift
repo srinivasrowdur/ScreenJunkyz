@@ -11,8 +11,9 @@ struct HomeView: View {
     var body: some View {
         Text("Srini Hello!")
         Text("Added Image text!")
-        Text("Second Image text!")
+        Text("Second Image Spelling Changed to Fix Bug text!")
         Text("Third Image text!")
+
     }
 }
 
