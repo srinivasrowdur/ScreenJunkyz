@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AC1BEE5527ADB93500BFF040 /* ScreenJunkyzApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BEE5427ADB93500BFF040 /* ScreenJunkyzApp.swift */; };
-		AC1BEE5727ADB93500BFF040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BEE5627ADB93500BFF040 /* ContentView.swift */; };
 		AC1BEE5927ADB93800BFF040 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1BEE5827ADB93800BFF040 /* Assets.xcassets */; };
 		AC1BEE5C27ADB93800BFF040 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1BEE5B27ADB93800BFF040 /* Preview Assets.xcassets */; };
 		AC1BEE6627ADB93800BFF040 /* ScreenJunkyzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BEE6527ADB93800BFF040 /* ScreenJunkyzTests.swift */; };
 		AC1BEE7027ADB93800BFF040 /* ScreenJunkyzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BEE6F27ADB93800BFF040 /* ScreenJunkyzUITests.swift */; };
 		AC1BEE7227ADB93800BFF040 /* ScreenJunkyzUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BEE7127ADB93800BFF040 /* ScreenJunkyzUITestsLaunchTests.swift */; };
+		AC1BEE7F27ADBD0A00BFF040 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1BEE7E27ADBD0A00BFF040 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		AC1BEE5127ADB93500BFF040 /* ScreenJunkyz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenJunkyz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1BEE5427ADB93500BFF040 /* ScreenJunkyzApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenJunkyzApp.swift; sourceTree = "<group>"; };
-		AC1BEE5627ADB93500BFF040 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC1BEE5827ADB93800BFF040 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1BEE5B27ADB93800BFF040 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC1BEE6127ADB93800BFF040 /* ScreenJunkyzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenJunkyzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +43,7 @@
 		AC1BEE6B27ADB93800BFF040 /* ScreenJunkyzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenJunkyzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC1BEE6F27ADB93800BFF040 /* ScreenJunkyzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenJunkyzUITests.swift; sourceTree = "<group>"; };
 		AC1BEE7127ADB93800BFF040 /* ScreenJunkyzUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenJunkyzUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC1BEE7E27ADBD0A00BFF040 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				AC1BEE5427ADB93500BFF040 /* ScreenJunkyzApp.swift */,
-				AC1BEE5627ADB93500BFF040 /* ContentView.swift */,
+				AC1BEE7E27ADBD0A00BFF040 /* HomeView.swift */,
 				AC1BEE5827ADB93800BFF040 /* Assets.xcassets */,
 				AC1BEE5A27ADB93800BFF040 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC1BEE5727ADB93500BFF040 /* ContentView.swift in Sources */,
+				AC1BEE7F27ADBD0A00BFF040 /* HomeView.swift in Sources */,
 				AC1BEE5527ADB93500BFF040 /* ScreenJunkyzApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
