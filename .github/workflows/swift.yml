@@ -16,4 +16,5 @@ jobs:
         run: |
           brew update
           brew install fastlane
+          fastlane incrementpatch
       
