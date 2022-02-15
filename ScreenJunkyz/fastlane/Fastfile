@@ -16,8 +16,32 @@
 default_platform(:ios)
 
 platform :ios do
+  desc "Create an IOS Build & Increase Build number"
+  lane :justbuild do
+    xcbuild
+    increment_build_number
+  end
+
+  desc "Run Tests & Increase Build number"
+  lane :justbuild do
+    scan(scheme: "BuildIncrement") # Name of the scema to be tested
+    increment_build_number
+  end
+
   desc "Increment patch version"
   lane :incrementpatch do
     increment_version_number_in_xcodeproj
+  end
+  desc "Increment minor version"
+  lane :incrementminor do
+    increment_version_number_in_xcodeproj(
+      bump_type: 'minor' # Automatically increment minor version number
+    )
+  end
+  desc "Increment Major version"
+  lane :incrementmajor do
+    increment_version_number_in_xcodeproj(
+      bump_type: 'major' # Automatically increment minor version number
+    )
   end
 end
