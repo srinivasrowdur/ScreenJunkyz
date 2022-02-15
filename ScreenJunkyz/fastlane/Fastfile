@@ -23,8 +23,8 @@ platform :ios do
   end
 
   desc "Run Tests & Increase Build number"
-  lane :justbuild do
-    scan(scheme: "BuildIncrement") # Name of the scema to be tested
+  lane :justtest do
+    scan(scheme: "ScreenJunkyz") # Name of the scema to be tested
     increment_build_number
   end
 
