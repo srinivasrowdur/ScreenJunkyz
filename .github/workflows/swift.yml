@@ -15,6 +15,6 @@ jobs:
       - name: Fastlane Action
         uses: maierj/fastlane-action@v2.1.0
         with:
-          lane: incrementpatch
+          lane: justbuild
           subdirectory: 'ScreenJunkyz'
       
